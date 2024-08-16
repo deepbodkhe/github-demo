@@ -1,0 +1,15 @@
+touch .gitignore
+git config --global user.name Deep Bodkhe
+git config --global user.email deepbodkhe18@gmail.com
+git init
+git add .
+git commit -m "Intial Commit"
+git status 
+
+
+$ git remote add origin
+$ ssh-keygen -t ed25519 -C "deepbodkhe18.com"
+tail<path to id_rsa.pub>     #add this key to ypur GitHub account
+git remote add origin <ssh url.git>
+git push orgin main
+
